@@ -42,25 +42,26 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         body: Column(
       children: [
+        Expanded(child: Container(color: Colors.blue)),
+        //Expanded(child: Container(color: Colors.white)),
         SizedBox(
-          height: 20,
-          child: Container(color: Color.fromARGB(255, 75, 13, 245)),
-        ),
-        SizedBox(
-          height: 20,
-          child: Container(color: Color.fromARGB(255, 75, 13, 245)),
-        ),
-        SizedBox(
-          height: 20,
+          width: 200,
+          height: 200,
+          child: Image.asset('assets\image\imagem cruzinha grecia.png'),
         ),
         Expanded(
           child: Container(
-            color: Color.fromARGB(255, 27, 3, 244),
+            color: Colors.blue,
           ),
         ),
         Expanded(
           child: Container(
-            color: Colors.yellow,
+            color: Colors.white,
+          ),
+        ),
+        Expanded(
+          child: Container(
+            color: Colors.blue,
           ),
         ),
       ],
